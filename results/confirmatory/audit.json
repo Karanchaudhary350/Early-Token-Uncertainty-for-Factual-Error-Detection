@@ -1,0 +1,19 @@
+{
+  "mode": "confirmatory",
+  "input_sha256": {
+    "outputs_zip": "6ce54ea72ccd7232de54510f2dc53a1c7dfbb0f9168146d65cf839bcfca2929d",
+    "annotations": "ae1bf2353c1e9aa3a4a90174db1ed6d9d013e1ee972f83828dfda1ff745d78a2"
+  },
+  "records": 100,
+  "pilot": 20,
+  "held_out": 80,
+  "reviewed_binary": 0,
+  "provisional_binary": 89,
+  "primary_eligible": 0,
+  "primary_correct": 0,
+  "primary_incorrect": 0,
+  "primary_short_excluded": 0,
+  "direction": "higher NLL / surprise predicts label 1 (incorrect)",
+  "label_warning": null,
+  "status": "BLOCKED_INSUFFICIENT_REVIEWED_LABELS_OR_CLASSES"
+}

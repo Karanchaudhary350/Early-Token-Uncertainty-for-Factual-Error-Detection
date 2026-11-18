@@ -1,0 +1,3 @@
+## Prompt 08 — AI assistance and validation history (2026-11-13)
+
+AI assisted in constructing Colab smoke-test notebooks and successive diagnostics. The user executed them in Google Colab and supplied actual output archives. Earlier attempts had score discrepancies: v2 approximately 0.232155 and 0.004317; v3 approximately 1.226817 and 0.805063. The v4 raw-logit/per-prefix check in float32 passed on two questions (maximum differences approximately 0.00001544 and 0.00000429). AI reviewed the submitted archive, dataset checksum and results. All outputs and metrics cited here derive from user-provided execution files; no correctness labels or hallucination detection metrics were produced. Preserve failed attempts and the final v4 evidence.

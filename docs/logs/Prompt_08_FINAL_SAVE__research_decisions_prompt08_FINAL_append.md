@@ -1,0 +1,3 @@
+## Prompt 08 — Final technical decision (2026-11-13)
+
+Status: **PASS (two-question smoke test)** based on user-provided Colab output `prompt08_outputs(2).zip`. Environment: Tesla T4, float32, Qwen2.5-0.5B-Instruct revision `7ae557604adf67be50417f59c2c2f167def9a775`. TruthfulQA source CSV: 790 rows, SHA256 `b8d8ef1e12f98b4f2a9f47abc9765da0640b182b6c5d9b92f0c1a1f2f1e02e5c`. Frozen sample: 100 (20 pilot, 80 held-out). Raw generation logits versus independent per-prefix forward-pass comparison passed for two responses; max differences 0.0000154376 and 0.0000042915, below 0.02. Do not claim factuality or detection accuracy. Proceed to Prompt 09 only with preserved scoring convention and reproducibility checks.

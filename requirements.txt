@@ -1,0 +1,2 @@
+# Evaluation dependencies (generation requires configs/requirements-generation.txt)
+-r configs/requirements-evaluation.txt

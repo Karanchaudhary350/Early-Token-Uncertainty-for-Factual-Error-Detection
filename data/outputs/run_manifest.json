@@ -1,0 +1,30 @@
+{
+  "started_utc": "2026-11-13T18:19:40.079262+00:00",
+  "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+  "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+  "gpu": "Tesla T4",
+  "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_revision_sha": "7ae557604adf67be50417f59c2c2f167def9a775",
+  "model_dtype": "float32",
+  "dataset_sha256": "b8d8ef1e12f98b4f2a9f47abc9765da0640b182b6c5d9b92f0c1a1f2f1e02e5c",
+  "sample_sha256": "88b8993dfa8535f8e0c8fc6055d511243405ee3605e9fb3fc53d6b1f5da0b589",
+  "seed": 20261113,
+  "packages": {
+    "torch": "2.14.1+cu130",
+    "transformers": "4.57.6",
+    "pandas": "2.2.3",
+    "numpy": "2.4.6",
+    "accelerate": "1.15.0"
+  },
+  "generation": {
+    "do_sample": false,
+    "num_beams": 1,
+    "max_new_tokens": 64,
+    "use_cache": false,
+    "output_logits": true
+  },
+  "scoring_mode": "float32_raw_generation_logits_no_cache",
+  "protocol_amendment": "Prompt08 v4 validated raw logits with float32 and use_cache=False; Prompt09 adopts this for consistency.",
+  "no_correctness_labels": true,
+  "no_performance_metrics": true
+}

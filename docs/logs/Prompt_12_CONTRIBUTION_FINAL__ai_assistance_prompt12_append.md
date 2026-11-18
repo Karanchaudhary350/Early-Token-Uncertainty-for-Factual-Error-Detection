@@ -1,0 +1,3 @@
+# Append to ai_assistance_log.md — Prompt 12
+
+**Date:** 2026-11-14. **AI assistance:** Compared three study pathways (new-condition reproduction, controlled comparison, targeted extension), recommended controlled comparison, drafted frozen executable analysis plan, wrote an ID/answer-alignment and eligibility preflight script. **Human responsibility:** Approve contribution selection, independently review factual correctness labels while blind to uncertainty, and inspect statistical outputs. **Evidence limitations:** AI-generated labels remain provisional; no confirmatory detection metrics or novel improvement were claimed. **Data sources:** Existing Prompt 09 run artifacts and Prompt 10 first-pass annotation; no new inference run.
